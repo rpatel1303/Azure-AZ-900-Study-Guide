@@ -1,0 +1,71 @@
+Azure Fundamentals
+----------------------------
+
+
+High Availability 
+	Maintain Acceptable Continuous performance under varying load and failure (mainly failures)
+Fault Tolerance
+	System's ability to continue operating properly when component fails (faulty)
+Disaster Recovery
+	System's ability to recover after disaster (think restore)
+
+Scalability
+	System's ability to increase the instance count or size of existing resource (scaling out/scaling up)
+Elasticity
+	System's ability to increase or decrease instance count or size. 
+
+Business Agility 
+	Organization's ability to rapidly adapt to market
+
+Economies of Scale 
+	Bulk Discount
+
+Capital Expenditure/Operational Expenditure 
+	CapEx 												OpEx
+		Upfront investment								No upfront investment
+		benefits over long period of time				immediate benefits
+		non-recurring									recurring costs
+		permanent assets								no permanent assets
+
+Consumption Based Model
+	Pay as you go
+
+IaaS - Infrastructure as a Service			  --> THINK HOSTING (Think VM/Virtual Networks)
+	Networking/Storage/Servers/Virtualization --> Managed by Vendor
+	OS and above 							  --> Managed by client
+
+PaaS - Platform as a Service				  --> THINK BUILD (Azure services like Storage/Search/SQL)
+	Data and Application 					  --> Managed by Client
+	Rest everything else 					  --> Managed by Vendor
+
+SaaS - Software as a Service				  --> THINK CONSUME (SalesForce/Office 365)
+	Full stack managed by Vendor
+
+
+Public Cloud Model
+	Multi Tenant implementation
+	Bound by multi tenant data management policies
+	Owned and operated by Cloud provider
+	Same self service capabilities of private cloud model
+
+	Two Org or client may be sharing hardware level resources
+
+
+Private Cloud Model
+	Single tenant implementation
+	Isolated resources in Azure
+	Higher level of security
+	more expensive
+
+	Define your own data management policies
+	Self service capabilities
+
+Hybrid Cloud Model
+	Combination of public and private Cloud model
+	cloud bursting is an option
+		that is when resources fail or spike in demand, organization can burst through public cloud
+	Use public cloud for less senstive application like emails etc.
+	Use private cloud for senstive applications
+	Can also be combination of on-prem and public cloud
+
+Comparing different cloud models
